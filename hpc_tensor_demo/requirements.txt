@@ -1,0 +1,26 @@
+# Core dependencies for HPC and Tensor demos
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Optional: PyTorch for advanced tensor operations and GPU acceleration
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Optional: MPI for distributed computing
+mpi4py>=3.1.0
+
+# Optional: CuPy for GPU acceleration (NVIDIA CUDA required)
+# cupy-cuda11x>=9.0.0  # Uncomment for CUDA 11.x
+# cupy-cuda12x>=12.0.0  # Uncomment for CUDA 12.x
+
+# Optional: Additional scientific computing libraries
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Performance monitoring
+psutil>=5.8.0
+memory_profiler>=0.60.0
+
+# Optional: Jupyter for interactive demos
+# jupyter>=1.0.0
+# ipywidgets>=7.6.0
